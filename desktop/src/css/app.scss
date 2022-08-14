@@ -1,0 +1,26 @@
+// app global css in SCSS form
+.tach-page {
+  background-color: $teal-3;
+}
+.tach-card {
+  background-color: $teal-1
+}
+.tach-h1 {
+  padding: 0;
+  margin: .25em;
+  text-align: center;
+  font-weight: 600;
+  color: $teal-9
+}
+.tach-h2 {
+  padding: 0;
+  margin: .22em;
+  text-align: center;
+  font-weight: 400;
+  color: $teal-8;
+  font-style: italic;
+}
+.tach-text-dark {
+  color: $teal-10
+}
+
