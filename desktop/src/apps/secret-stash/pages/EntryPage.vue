@@ -58,7 +58,7 @@
 <script>
 import { defineComponent } from "vue";
 
-import AccessApp from "../../components/AccessApp.vue";
+import AccessApp from "../components/AccessApp.vue";
 
 export default defineComponent({
   name: "SecretStashEntryPage",
