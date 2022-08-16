@@ -5,21 +5,55 @@
 .tach-card {
   background-color: $teal-1
 }
+.tach-heading {
+  color: $teal-8;
+}
+.tach-card-header {
+  background-color: $teal-8;
+  color: $teal-2;
+}
 .tach-h1 {
   padding: 0;
   margin: .25em;
   text-align: center;
   font-weight: 600;
-  color: $teal-9
+  font-size: 4em;
+  color: $teal-9;
+  line-height: 110%;
 }
 .tach-h2 {
   padding: 0;
   margin: .22em;
   text-align: center;
   font-weight: 400;
-  color: $teal-8;
+  font-size: 3.2em;
+  font-style: italic;
+  line-height: 110%;
+}
+.tach-h3 {
+  padding: 0;
+  margin: .20em;
+  text-align: center;
+  font-weight: 420;
+  font-size: 2.9em;
+  line-height: 110%;
+}
+.tach-h4-text {
+  padding: 0;
+  margin: .10em;
+  text-align: center;
+  font-weight: 300;
+  font-size: 2em;
+  line-height: 110%;
   font-style: italic;
 }
 .tach-text-dark {
   color: $teal-10
+}
+.tach-navbar {
+  color: $teal-2
+}
+.tach-navbar a {
+  text-decoration: none;
+  color: inherit
 }

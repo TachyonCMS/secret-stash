@@ -51,15 +51,30 @@
   </q-card>
   <q-card v-else class="tach-card">
     <q-card-section class="text-center tach-text-dark">
-      <div><span class="tach-h1">Sorry, no stash for you.</span></div>
+      <div><span class="tach-h1">We're Sorry, </span></div>
 
       <div>
         Secret Stash is only available on <b>desktop</b> computers running the
         latest <b>Chrome</b> browser.
       </div>
-      <q-icon name="mdi-emoticon-frown" color="orange" size="lg"></q-icon
-      ><q-icon name="mdi-emoticon-sad" color="orange" size="lg"></q-icon
-      ><q-icon name="mdi-emoticon-cry" color="orange" size="lg"></q-icon>
+      <q-icon
+        class="q-py-md"
+        name="mdi-emoticon-frown"
+        color="orange"
+        size="lg"
+      ></q-icon
+      ><q-icon
+        class="q-py-md"
+        name="mdi-emoticon-sad"
+        color="orange"
+        size="lg"
+      ></q-icon
+      ><q-icon
+        class="q-py-md"
+        name="mdi-emoticon-cry"
+        color="orange"
+        size="lg"
+      ></q-icon>
     </q-card-section>
   </q-card>
 </template>
