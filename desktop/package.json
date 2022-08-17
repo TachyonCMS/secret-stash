@@ -1,8 +1,8 @@
 {
   "name": "desktop",
   "version": "0.0.1",
-  "description": "A Quasar Project",
-  "productName": "Secret Stash",
+  "description": "Security Mavens provides secure web-deployed apps that store data in a directory of the user's choosing.",
+  "productName": "Security Mavens",
   "author": "Brian Winkers <bwinkers@gmail.com>",
   "private": true,
   "scripts": {

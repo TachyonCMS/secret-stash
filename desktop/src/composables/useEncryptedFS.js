@@ -76,7 +76,7 @@ export default function useEncryptedFS() {
           throw new Error("The directory MUST be empty, create a new directory if needed.");
         }
 
-        console.log("Creating Master Key");
+        console.log("Decrypting Master Key");
       }
     } catch (e) {
 

@@ -16,33 +16,48 @@
             </h4>
           </q-card-section>
           <q-card-section class="tach-text-dark">
-            <div class="text-body1">
-              Secret Stash stores your important data, encrypted, in a local
-              directory.
+            <div class="row q-pt-sm">
+              <div class="col"></div>
+              <div class="col-12-xs col-8">
+                <div class="text-body1">
+                  Secret Stash stores your important data, encrypted, in a local
+                  directory.
+                </div>
+              </div>
+              <div class="col"></div>
             </div>
-            <div class="text-body1">
-              <ul>
-                <li>
-                  <span class="text-bold">No Installation</span>, only the
-                  resulting data files are saved locally.
-                </li>
-                <li>
-                  <span class="text-bold">No Charge</span>, basic services are
-                  free, and will remain free.
-                </li>
-                <li>
-                  <span class="text-bold">Unlimited Stashes</span>, create as
-                  many local stahses as desired.
-                </li>
-                <li>
-                  <span class="text-bold">Secure Cloud Backups</span>, simply
-                  copy encrypted files to the cloud.
-                </li>
-              </ul>
+
+            <div class="row q-pt-sm">
+              <div class="col"></div>
+              <div class="col-12-xs col-8">
+                <div class="text-body1">
+                  <ul>
+                    <li>
+                      <span class="text-bold">No Installation</span>, only the
+                      resulting data files are saved locally.
+                    </li>
+                    <li>
+                      <span class="text-bold">No Charge</span>, basic services
+                      are free, and will remain free.
+                    </li>
+                    <li>
+                      <span class="text-bold">Unlimited Stashes</span>, create
+                      as many local stahses as desired.
+                    </li>
+                    <li>
+                      <span class="text-bold">Secure Cloud Backups</span>,
+                      simply copy encrypted files to the cloud.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col"></div>
             </div>
             <div class="row q-pt-sm">
               <div class="col"></div>
-              <div class="col-12-xs col-6"><access-secret-stash></access-secret-stash></div>
+              <div class="col-12-xs col-8">
+                <access-secret-stash></access-secret-stash>
+              </div>
               <div class="col"></div>
             </div>
           </q-card-section>
@@ -50,31 +65,6 @@
       </div>
       <div class="col"></div>
     </div>
-    <!--
-   <div class="row justify-around">
-    <div class="col-3">
-      <q-card class="tach-card">
-        <q-card-section>
-          No Install
-        </q-card-section>
-      </q-card>
-    </div>
-    <div class="col-3">
-      <q-card class="tach-card">
-        <q-card-section>
-          Free
-        </q-card-section>
-      </q-card>
-    </div>
-    <div class="col-3">
-      <q-card class="tach-card">
-        <q-card-section>
-          Secure erg er g er g erg e rg e geger
-          hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
-        </q-card-section>
-      </q-card>
-    </div>
-   </div> -->
   </q-page>
 </template>
 
@@ -86,7 +76,7 @@ import AccessSecretStash from "../components/AccessApp.vue";
 export default defineComponent({
   name: "IndexPage",
   components: {
-    AccessSecretStash
+    AccessSecretStash,
   },
 });
 </script>
